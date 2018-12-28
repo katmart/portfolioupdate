@@ -1,0 +1,418 @@
+html body {
+  height: 100%;
+  width: 100%;
+}
+
+#container2 {
+  width: 100%;
+}
+body {
+  font-size: 1em;
+}
+header {
+  padding: 1em;
+}
+
+h1 {
+  font-family: 'Bree Serif', cursive;
+  font-size: 1.5em;
+  font-weight: 700;
+  color: rgba(10, 20, 132, 0.9);
+}
+
+a {
+  text-decoration: none;
+  color: rgba(10, 20, 132, 0.9);
+}
+
+h2 {
+  font-family: 'Bree Serif', cursive;
+  font-size: 1.75em;
+  color: rgba(10, 20, 132, 0.9);
+}
+
+aside {
+  position: fixed;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  height: 100%;
+  overflow: auto;
+  width: 17em;
+  background-color: rgba(210, 210, 255, 0.9);
+  float: left;
+  text-align: center;
+  border-left: 8px solid rgba(10, 20, 132, 0.9);
+}
+
+aside h1 {
+  margin-top: 3.8em;
+}
+
+.rightcolumn {
+  width: 100%;
+  float: left;
+  padding: 0.3em;
+  margin: 4em 0 0 18em;
+}
+
+.rightcolumn h1 {
+  padding: 0 0 2em 1em;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  color: rgba(75, 75, 75, 0.9);
+  list-style-type: none;
+  font-size: 1em;
+  font-family: "Raleway";
+}
+
+p {
+  color: rgba(75, 75, 75, 0.9);
+  font-size: 1em;
+  font-family: "Raleway";
+}
+
+.rightcolumn p {
+  font-family: "Raleway";
+  line-height: 1.35em;
+}
+
+p > a {
+  text-decoration: none;
+  color: rgba(91, 12, 110, 0.9);
+}
+
+nav {
+  width: 20%;
+  height: 39%;
+  margin: 1.3em 0 1.3em 1.5em;
+  text-align: center;
+}
+nav a {
+  display: block;
+  text-decoration: none;
+  color: rgba(10, 20, 132, 0.9);
+  font-family: "Raleway";
+  font-weight: bold;
+  font-size: 1.4em;
+  padding: 0.3em;
+  width: 200px;
+}
+
+h1 a {
+  font-size: 1.75em;
+  color: rgba(91, 12, 110, 0.9);
+}
+
+nav#fixalign {
+  margin-left: 0.4em;
+  text-align: center;
+}
+
+a:hover {
+  color: rgba(82, 77, 120, 0.9);
+  text-decoration: underline;
+}
+
+.projectscontain#web {
+  float: left;
+  padding: 0.7em;
+  margin: 1em 5em 0 3em;
+}
+
+.projectscontain#other {
+  float: left;
+  padding: 0.7em;
+  margin: 1em 20em 0 3em;
+}
+
+#about {
+  padding: 0.2em;
+  margin: 3.25em 22em 0 0.75em;
+  font-size: 1em;
+  line-height: 1.4em;
+}
+
+#resume {
+  margin: 1em 0;
+}
+
+#web {
+  margin-bottom: 1.95em;
+}
+
+#analogue {
+  margin-bottom: 1.95em;
+}
+
+#misc {
+  margin-bottom: 1.95em;
+}
+
+img {
+  margin-bottom: 1.5em;
+  border-radius: 1em;
+  max-width: 320px;
+}
+
+.download {
+  margin: 0.2em;
+  padding: 0.5em;
+  text-align: center;
+  border-radius: 0.2em;
+  background-color: rgba(91, 12, 110, 0.9);
+  width: 50%;
+  height: 4.5%;
+  font-size: 1.5em;
+}
+
+.download a {
+  color: rgba(190, 210, 255, 0.9);
+  font-family: "Raleway";
+}
+.abuttonone {
+  border-radius: 0.5em;
+  background-color: rgba(91, 12, 110, 0.9);
+  float: left;
+  clear: both;
+  margin: 3px;
+}
+.abuttontwo {
+  border-radius: 0.5em;
+  background-color: rgba(10, 20, 132, 0.9);
+  float: left;
+  clear: both;
+  margin: 3px;
+}
+figure {
+  margin-bottom: 2em;
+}
+figcaption {
+  width: 20em;
+}
+figcaption > h1 {
+  margin-bottom: -1.75em;
+  margin-left: -1em;
+}
+.socialmedia {
+  display: inline;
+}
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+@media only screen and (min-width: 710px) and (max-width: 1180px) {
+  aside {
+    position: fixed;
+    height: 100%;
+  }
+}
+
+@media only screen and (min-width: 450px) and (max-width: 710px) {
+  
+aside {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 108%;
+    clear: both;
+    height: 190px;
+    position: relative;
+  }
+
+aside h1 {
+    margin: .125em 0 1.4em 1.2em;
+    font-size: 1.4em;
+    text-align: left;
+    margin-bottom: .2em;
+  } 
+  
+nav ul li a {
+    padding: 4px;
+    margin: 5px 10px 5px 10px;
+  }
+
+nav#fixalign {
+    display: inline;
+}
+
+ul {
+    list-style-image: none;
+  }
+  
+nav a {
+    display: inline;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+  }
+
+nav li { 
+  padding: 5px 20px 5px 20px;
+
+  }
+  
+li a {
+    color: rgba(10, 20, 132, 0.9);
+}
+
+a:hover {
+    color: rgba(91, 12, 110, 0.9);
+  }
+
+.abuttonone .abuttontwo {
+    width: 9.95em;
+  }
+
+.abuttonone {
+    border: 1px rgba(91, 12, 110, 0.9) solid;
+    margin-left: 1.2em;
+    background-color: rgba(190, 210, 255, 0.9);
+  }
+
+.abuttontwo {
+    border: 1px rgba(91, 12, 110, 0.9) solid;
+    margin-left: 1.2em;
+    background-color: rgba(190, 210, 255, 0.9);
+    clear: none;
+    float: left;
+  }
+
+.socialmedia {
+  float: left;
+  margin: 22px 30px 0 30px;
+  }
+
+.rightcolumn {
+    width: 100%;
+    position: relative;
+    clear: both;
+    padding: 0.3em;
+    margin: 0.3em 1em 0 0;
+  }
+  #web.projectscontain {
+    width: 80%;
+    margin-top: 5em;
+    margin-left: 2.6em;
+  }
+  #other.projectscontain {
+    width: 80%;
+    margin-top: 1em;
+    margin-left: 2.6em;
+  }
+
+  #about {
+    padding: 1em;
+    margin: 2.25em 5.45em 0.95em 1.9em;
+    font-size: 1em;
+  }
+  #resume {
+    margin: 1em 0;
+    font-size: 1em;
+  }
+}
+@media only screen and (max-width: 450px) {
+  header {
+    padding: 0;
+  }
+  aside {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 108%;
+    height: 190px;
+    border-left: none;
+    overflow: none;
+    position: relative;
+  }
+ 
+h1 {
+    color: rgba(91, 12, 110, 0.9);
+  }
+  
+aside h1 {
+    margin: 1em 0 0 1em;
+    text-align: left;
+    font-size: 1.2em;
+  }
+  nav {
+    display: inline;
+    
+  }
+nav a {
+    text-align: left;  
+  }
+ 
+a:hover {
+    color: rgba(91, 12, 110, 0.9);
+  }  
+  .abuttonone .abuttontwo { 
+      font-size: 0.8em;
+  } 
+  .abuttonone {
+    width: 9em;
+    margin-top: 0.1em;
+    margin: 0 0 0 1.5em;
+    padding: 4px;
+    border: 1px rgba(91, 12, 110, 0.9) solid;
+  }
+  
+  .abuttontwo {
+    width: 9em;
+    border: 1px rgba(91, 12, 110, 0.9) solid; 
+    margin: .2em 0 1em 1.5em;
+    padding: 4px;
+    clear: none;
+  }
+  .rightcolumn {
+    width: 100%;
+    margin: 0.5em 0 0 0.5em;
+    clear: both;
+  }
+ .socialmedia {
+    float: left;
+  margin: 2px 30px 0 30px;
+  }
+  #web.projectscontain {
+    float: left;
+    margin-top: 5em;
+    margin-left: 1em;
+  }
+  #other.projectscontain {
+    float: left;
+    margin-left: 1em;
+    margin-top: 2em;
+  }
+  #about {
+    padding: 0.1em;
+    margin: 6.25em 1.45em 0.95em 1.9em;
+    font-size: 1em;
+  }
+  
+  
+  #resume {
+    padding: 0;
+    margin: 1em 5.45em 1em 0;
+    font-size: 1em;
+  }
+  p {
+    font-size: 135%;
+  }
+  figcaption h1 {
+    font-size: 1.5em;
+  }
+}
+
